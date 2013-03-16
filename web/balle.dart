@@ -21,14 +21,13 @@ void draw() {
   var x = sin( time ) * 96 + 128;
   var y = cos( time * 0.9 ) * 96 + 128;
 
-  ctx.fillStyle = 'rgb(245,245,245)';
-  ctx.fillRect( 0, 0, 255, 255 );
-
-  ctx.fillStyle = 'rgb(255,0,0)';
-  ctx.beginPath();
-  ctx.arc( x, y, 10, 0, PI * 2, true );
-  ctx.closePath();
-  ctx.fill();
+  ctx..fillStyle = 'rgb(245,245,245)'
+     ..fillRect( 0, 0, 255, 255 )
+     ..fillStyle = 'rgb(255,0,0)'
+     ..beginPath()
+     ..arc( x, y, 10, 0, PI * 2, true )
+     ..closePath()
+     ..fill();
 
 }
 
