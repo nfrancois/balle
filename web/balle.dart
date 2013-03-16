@@ -17,7 +17,7 @@ animate(num time){
 
 void draw() {
 
-  var time = new Date.now().millisecondsSinceEpoch * 0.002;
+  var time = new DateTime.now().millisecondsSinceEpoch * 0.002;
   var x = sin( time ) * 96 + 128;
   var y = cos( time * 0.9 ) * 96 + 128;
 
