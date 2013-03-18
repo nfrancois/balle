@@ -1,4 +1,4 @@
 name: dart_animation_balle
 description: A animation in Dart
 dependencies:
-  browser: any
+  browser: '<0.4.2'
