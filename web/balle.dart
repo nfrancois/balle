@@ -5,7 +5,7 @@ CanvasRenderingContext2D ctx;
 
 void main() {
   CanvasElement canvas = document.query("#canvas");
-  ctx = canvas.getContext("2d");
+  ctx = canvas.context2d;
   
   window.requestAnimationFrame(animate);
 }
