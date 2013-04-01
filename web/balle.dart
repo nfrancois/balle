@@ -7,12 +7,12 @@ void main() {
   CanvasElement canvas = document.query("#canvas");
   ctx = canvas.context2d;
   
-  window.requestAnimationFrame(animate);
+  window.animationFrame.then(animate);
 }
 
 animate(num time){
   draw();
-  window.requestAnimationFrame(animate);
+  window.animationFrame.then(animate);
 }
 
 void draw() {
