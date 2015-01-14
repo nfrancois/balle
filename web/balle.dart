@@ -7,7 +7,7 @@ num width;
 num height;
 
 void main() {
-  CanvasElement canvas = document.query("#canvas");
+  CanvasElement canvas = querySelector("#canvas");
   ctx = canvas.context2d;
   width = canvas.width;
   height = canvas.height;
