@@ -8,7 +8,7 @@ num height;
 
 void main() {
   CanvasElement canvas = querySelector("#canvas");
-  ctx = canvas.context2d;
+  ctx = canvas.context2D;
   width = canvas.width;
   height = canvas.height;
   
